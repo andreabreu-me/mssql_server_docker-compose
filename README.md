@@ -3,7 +3,8 @@
 ### Start container
 Run ``docker-compose up -d`` in order to launch Mssql Server container.
 
-** MsSql Server is accessible at localhost:1433 **
+**MsSql Server is accessible at localhost:1433**
+
 ### Env variables
 
 **SA_PASSWORD**: Super Admin password
