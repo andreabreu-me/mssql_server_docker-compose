@@ -1,0 +1,16 @@
+version: "3"
+services:
+    mssql_server:
+        build: ./mssql-server
+        environment:
+            SA_PASSWORD: P@ssw0rd
+            ACCEPT_EULA: Y
+            MSSQL_DB: MyDb
+            MSSQL_USER: MyDb
+            MSSQL_PASSWORD: P@ssw0rd
+        ports:
+          - 1433:1433
+        volumes:
+          - mssql-volume:/var/opt/mssql
+volumes:
+  mssql-volume:
