@@ -1,4 +1,4 @@
-#MsSql Server
+# MsSql Server
 
 ### Start container
 Run ``docker-compose up -d`` in order to launch Mssql Server container.
